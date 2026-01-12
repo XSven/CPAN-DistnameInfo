@@ -277,7 +277,7 @@ CPAN/authors/id/R/RJ/RJBS/Dist-Zilla-2.100860-TRIAL.tar.gz
 	dist		Dist-Zilla
 	maturity	developer
 	distvname	Dist-Zilla-2.100860-TRIAL
-	version		2.100860-TRIAL
+	version		2.100860
 	cpanid		RJBS
 	extension	tar.gz
 
