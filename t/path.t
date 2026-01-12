@@ -1,5 +1,5 @@
 
-use Test::More tests => 269;
+use Test::More tests => 276;
 use Data::Dumper;
 
 use CPAN::DistnameInfo;
@@ -289,3 +289,10 @@ CPAN/authors/id/M/MI/MINGYILIU/Bio-ASN1-EntrezGene-1.10-withoutworldwriteables.t
 	version		1.10
 	cpanid		MINGYILIU
 	extension	tar.gz
+
+Foo-Bar-v1.0.2-TRIAL7
+	filename	Foo-Bar-v1.0.2-TRIAL7
+	dist		Foo-Bar
+	maturity	developer
+	distvname	Foo-Bar-v1.0.2-TRIAL7
+	version		v1.0.2

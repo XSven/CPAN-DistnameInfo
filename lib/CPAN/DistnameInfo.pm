@@ -85,9 +85,9 @@ sub new {
   ($info{filename} = $distfile) =~ s,^(((.*?/)?authors/)?id/)?([A-Z])/(\4[A-Z])/(\5[-A-Z0-9]*)/,,
     and $info{cpanid} = $6;
 
-  if ($distfile =~ m,([^/]+)\.(tar\.(?:g?z|bz2|xz)|zip|tgz)$,i) { # support more ?
+  if ($distfile =~ m,([^/]+?)(?:\.(tar\.(?:g?z|bz2|xz)|zip|tgz))?$,i) { # support more ?
     $info{distvname} = $1;
-    $info{extension} = $2;
+    $info{extension} = $2 if defined $2;
   }
 
   @info{qw(dist version beta)} = distname_info($info{distvname});
@@ -196,7 +196,7 @@ The extracted version
 
 Graham Barr <gbarr@pobox.com>
 
-=head1 COPYRIGHT 
+=head1 COPYRIGHT
 
 Copyright (c) 2003 Graham Barr. All rights reserved. This program is
 free software; you can redistribute it and/or modify it under the same

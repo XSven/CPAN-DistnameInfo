@@ -1,5 +1,5 @@
 
-use Test::More tests => 563;
+use Test::More tests => 564;
 use Data::Dumper;
 
 use utf8;
@@ -583,3 +583,4 @@ Task-Deprecations5_14-1.00.tar.gz	Task-Deprecations5_14	1.00
 Foo-Bar-1.0௧.tar.gz	Foo-Bar-1.0௧
 Foo-Bar-1.0-TRIAL.tar.gz	Foo-Bar	1.0	1
 Foo-Bar-1.0-TRIAL2.tar.gz	Foo-Bar	1.0	1
+Foo-Bar-v1.0.2-TRIAL7	Foo-Bar	v1.0.2	1
