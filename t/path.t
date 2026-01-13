@@ -4,7 +4,7 @@ use Data::Dumper;
 
 use CPAN::DistnameInfo;
 
-local $/ ="";
+local $/ = '';
 
 while(<DATA>) {
   chomp;
